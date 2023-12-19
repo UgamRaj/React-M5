@@ -6,6 +6,7 @@ import { BiSolidComment } from "react-icons/bi";
 const Card = ({ movies }) => {
   return (
     <div className="cards">
+      <h2>Movies Card</h2>
       {movies.map((movie) => {
         return (
           <>
