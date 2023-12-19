@@ -1,0 +1,51 @@
+[
+    {
+        "id":"1",
+        "title":"Animal",
+        "image_url":"https://assets.voxcinemas.com/posters/P_HO00010626.jpg",
+        "poster":"https://m.media-amazon.com/images/M/MV5BNGViM2M4NmUtMmNkNy00MTQ5LTk5MDYtNmNhODAzODkwOTJlXkEyXkFqcGdeQXVyMTY1NDY4NTIw._V1_FMjpg_UX1000_.jpg",
+        "release":"2023",
+        "director": "Sandeep Reddy Vanga",
+        "duration":"201 min",
+        "genres":"Action, Crime, Drama",
+        "movie_des":"A father, who is often away due to work, is unable to comprehend the intensity of his son's love. Iro",
+        "color": "#0C705E"
+    },
+    {
+        "id":"2",
+        "title":"Bright",
+        "image_url":"https://upload.wikimedia.org/wikipedia/en/a/a7/BrightPoster.jpeg",
+        "poster":"https://www.tvguide.com/a/img/catalog/provider/1/2/1-6146281449.jpg",
+        "release":"2017",
+        "director": "David Ayer",
+        "duration":"107 min",
+        "genres":"Action, Crime, Fantasy",
+        "movie_des":"Set in a world where fantasy creatures live side by side with humans, A humans cop is forced to work with an Orc to find a weapon everyone is prepared to kill for.",
+        "color": "#ba5b3d"
+    },
+    {
+        "id": 3,
+        "title": "Tomb Raider",
+        "image_url": "https://images.hdqwalls.com/wallpapers/tomb-raider-2018-movie-alicia-vikander-5s.jpg",
+        "duration": "125 min",
+        "movie_des": "Lara Croft, the fiercely independent daughter of a missing adventurer, must push herself beyond her limits when she finds herself on the island where her father disappeared.",
+        "release": 2018,
+        "director": "Roar Uthaug",
+        "genres": "Action, Fantasy",
+        "poster": "https://image.tmdb.org/t/p/original/s4Qn5LF6OwK4rIifmthIDtbqDSs.jpg",
+        
+        "color": "#0C705E"
+      },
+    {
+        "id":"4",
+        "title":"Avatar",
+        "image_url":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxMDg1Nzk1MV5BMl5BanBnXkFtZTcwMDk0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+        "poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyOTYyMzUxNl5BMl5BanBnXkFtZTcwNTg0MTUzNA@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+        "release":"2009",
+        "director": "James Cameron",
+        "duration":"162 min",
+        "genres":"Action, Adventure, Fantasy",
+        "movie_des":"A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "color": "#1D730F"
+    }
+]
