@@ -1,3 +1,7 @@
+## Hosted Link 👇
+
+## [Bank of React Link](https://bank-of-react-ugam.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
