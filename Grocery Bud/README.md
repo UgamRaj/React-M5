@@ -2,6 +2,9 @@
 
 ## [Grocery Bud Link](https://grocery-bud-ugam.netlify.app/)
 
+![grocery bud](https://github.com/UgamRaj/React-M5/assets/124122714/65948da5-e02c-46fa-b1e9-a356e4538c8f)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
