@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222831;
+  /* background-color: black; */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+h1 {
+  /* animation: shadows 2s infinite; */
+  color: #fff;
+  text-shadow: #48abe0 0 0 10px;
+  /* text-shadow: rebeccapurple 0 0 10px; */
+}
+
+.progressbar {
+  height: 1.8rem;
+
+  /* width: 31rem; */
+  width: 40%;
+  background-color: #e9ecef;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.colorText {
+  color: #fff;
+}
+
+.progressbar span {
+  width: 100%;
+  top: 0.4rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.progressbarFill {
+  height: 100%;
+  background-color: #00c251;
+  /* background-color: rgba(0, 255, 255, 0.7); */
+  /* transition: transform 0.4s ease-out; */
+  transition: width 0.4s ease-out;
+}
+
+.card.shadow-animate {
+  box-shadow: 0px 0px 20px 10px #48abe0;
+  animation: shadows 1.5s infinite;
+}
+
+@keyframes shadows {
+  0% {
+    text-shadow: #48abe0 0 0 10px;
+    box-shadow: 0px 0px 20px 10px #48abe0;
+  }
+  50% {
+    text-shadow: blueviolet 0 0 10px;
+    box-shadow: 0px 0px 20px 10px blueviolet;
+  }
+  75% {
+    text-shadow: rebeccapurple 0 0 10px;
+    box-shadow: 0px 0px 20px 10px rebeccapuprle;
+  }
+  100% {
+    text-shadow: #48abe0 0 0 10px;
+    box-shadow: 0px 0px 20px 10px #48abe0;
+  }
+}
