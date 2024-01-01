@@ -1,0 +1,65 @@
+.sideBar {
+  height: 100vh;
+}
+
+.sideBarHeader {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  height: 10vh;
+  padding: 2rem;
+}
+
+.sideBarBtn {
+  align-items: center;
+  background: #3c91e6;
+  border: none;
+  border-radius: 50%;
+  color: #f7f7ff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.5rem;
+  height: 1.5rem;
+  justify-content: center;
+  width: 1.5rem;
+}
+.sideBarNotes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.sideBarNotes li {
+  border-bottom: 1px solid #69626d;
+  cursor: pointer;
+  padding: 1rem 2rem 1rem 1rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.sideBarNotes .selectedNotes {
+  background: #3c91e6;
+  font-size: 1.25rem;
+  color: #f7f7ff;
+  font-weight: 700;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.deleteBtn {
+  background: transparent;
+  border: none;
+  color: #070600;
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  font-size: 1.1rem;
+}
+.split {
+  display: flex;
+}
