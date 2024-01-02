@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+}
+li {
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
