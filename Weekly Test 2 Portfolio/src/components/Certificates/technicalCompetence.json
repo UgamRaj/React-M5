@@ -1,0 +1,27 @@
+[
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/certificates/node.js-essentials.png",
+        "title":"Node.js Essentials",
+        "timeline":"LinkedIn Learning"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/certificates/react.js-essentials.png",
+        "title":"React.js Essentials",
+        "timeline":"LinkedIn Learning"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/certificates/javascript-essentials.png",
+        "title":"JavaScript Essentials",
+        "timeline":"LinkedIn Learning"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/certificates/fundamentals-of-digital-marketing.png",
+        "title":"Fundamentals of Digital Marketing",
+        "timeline":"Google Certified Digital Marketing Course"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/certificates/elements-of-ai.png",
+        "title":"Elements of AI",
+        "timeline":"University of Helsinki"
+    }
+]

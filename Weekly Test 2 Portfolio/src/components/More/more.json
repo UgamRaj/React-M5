@@ -1,0 +1,32 @@
+[
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/projects/pigletz.jpg",
+        "category1":"Marketing & BizDev",
+        "category2":"Content Creator",
+        "title":"Pigletz",
+        "text":"I create and manage the Pigletz community's social media presence, including producing and editing high-quality Web3 content for their YouTube channel. I also work on expanding the community's reach and impact through partnerships in the Web3 space.",
+        "globe":"Website",
+        "insta":"Instagram",
+        "yt":"YouTube"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/projects/sha-beats.jpg",
+        "category1":"Beat Making",
+        "category2":"Sound Design",
+        "title":"Music Production",
+        "text":"Produced over 100 instrumentals in different genres, collaborated with artists and my beats are on popular streaming platforms like Spotify, iTunes, Amazon and Deezer. They can also be purchased exclusively on my beatstore for musicians to create their unique sound.",
+        "globe":"Website",
+        "insta":"Instagram",
+        "yt":"YouTube"
+    },
+    {
+        "imgUrl":"https://oktayshakirov.com/assets/images/projects/sha-pixels.png",
+        "category1":"Multimedia Design",
+        "category2":"3D Rendering",
+        "title":"Digital Content Creation",
+        "text":"My digital art portfolio, which includes a wide collection of graphic designs, 3D models and short video animations created for various purposes. I have long experience working with popular softwares like Adobe Photoshop, After Effects, Premiere Pro and Blender.",
+        "globe":"",
+        "insta":"Instagram",
+        "yt":""
+    }
+]
