@@ -3,25 +3,121 @@ import axios from "axios";
 import Card from "./Card";
 
 const Main = () => {
-  const [quetion, setQuestions] = useState([
-    {
-      question:
-        "The HBO series &quot;Game of Thrones&quot; is based on which series of books?",
-      incorrect_answers: ["Aztecs", "Incas", "Toltecs"],
-      correct_answer: "Mayans",
-    },
-  ]);
-  const [indx, setIndex] = useState(0);
-  const [newQuestion, setNewQuestions] = useState({});
-  const [isLoding, setIsLoading] = useState(false);
+  const [questions, setQuestions] = useState([]);
 
-  const onGetNewQuestion = () => {
-    console.log(quetion);
-    setNewQuestions(quetion[indx]);
-  };
-  useEffect(() => {
-    onGetNewQuestion();
-  }, [indx]);
+  // const res = [
+  //   {
+  //     type: "multiple",
+  //     difficulty: "hard",
+  //     category: "Entertainment: Video Games",
+  //     question:
+  //       "What device allows Tracer to manipulate her own time in the game &quot;Overwatch&quot;?",
+  //     correct_answer: "Chronal Accelerator",
+  //     incorrect_answers: [
+  //       "B.L.I.N.K",
+  //       "Spacial Displacement Manipulator",
+  //       "TMD (Time Manipulation Device)",
+  //     ],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Geography",
+  //     question:
+  //       "Colchester Overpass, otherwise known as &quot;Bunny Man Bridge&quot;, is located where?",
+  //     correct_answer: "Fairfax County, Virginia",
+  //     incorrect_answers: [
+  //       "Medford, Oregon",
+  //       "Braxton County, Virgina",
+  //       "Lemon Grove, California",
+  //     ],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Entertainment: Film",
+  //     question: "Who directed the 1973 film &quot;American Graffiti&quot;?",
+  //     correct_answer: "George Lucas",
+  //     incorrect_answers: [
+  //       "Ron Howard",
+  //       "Francis Ford Coppola",
+  //       "Steven Spielberg",
+  //     ],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "hard",
+  //     category: "Science &amp; Nature",
+  //     question:
+  //       "A comet&#039;s gaseous envelope (which creates the tail) is called what?",
+  //     correct_answer: "The coma",
+  //     incorrect_answers: ["The wake", "The backwash", "The ablative"],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Entertainment: Film",
+  //     question:
+  //       "Which director directed the movie &quot;Pan&#039;s Labyrinth&quot;?",
+  //     correct_answer: "Guillermo Del Toro",
+  //     incorrect_answers: [
+  //       "Alfonso Cuar&oacute;n",
+  //       "Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",
+  //       " Alejandro Jodorowsky",
+  //     ],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "easy",
+  //     category: "Entertainment: Japanese Anime &amp; Manga",
+  //     question: "Who is the author of the manga series &quot;Astro Boy&quot;?",
+  //     correct_answer: "Osamu Tezuka",
+  //     incorrect_answers: [
+  //       "Mitsuteri Yokoyama",
+  //       "Takao Saito",
+  //       "Yoshihiro Tatsumi",
+  //     ],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Geography",
+  //     question:
+  //       "The Principality of Sealand is an unrecognized micronation off the coast of what country?",
+  //     correct_answer: "The United Kingdom",
+  //     incorrect_answers: ["Japan", "Austrailia", "Argentina"],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Science: Computers",
+  //     question: "What is the number of keys on a standard Windows Keyboard?",
+  //     correct_answer: "104",
+  //     incorrect_answers: ["64", "94", "76"],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Entertainment: Comics",
+  //     question:
+  //       "Who was the inspiration for Cuthbert Calculus in the Tintin series?",
+  //     correct_answer: "Auguste Picard",
+  //     incorrect_answers: ["Jacques Piccard", "Will Morris", "J. Cecil Maby"],
+  //   },
+  //   {
+  //     type: "multiple",
+  //     difficulty: "medium",
+  //     category: "Entertainment: Japanese Anime &amp; Manga",
+  //     question:
+  //       "In &quot;To Love-Ru: Darkness&quot;, which of the girls attempt making a harem for Rito Yuuki?",
+  //     correct_answer: "Momo Deviluke",
+  //     incorrect_answers: [
+  //       "Yami (Golden Darkness)",
+  //       "Haruna Sairenji",
+  //       "Mea Kurosaki",
+  //     ],
+  //   },
+  // ];
 
   useEffect(() => {
     questionApi();
@@ -32,37 +128,19 @@ const Main = () => {
       const res = await axios.get(
         `https://opentdb.com/api.php?amount=10&type=multiple`
       );
-      console.log(res.data.results);
-      setQuestions(res.data.results);
-      setIsLoading(false);
+      // console.log(res.data.results);
+      const data = res.data.results;
+      setQuestions(data);
     } catch (error) {
-      if (error.response && error.response.status === 429) {
-        console.log("Rate limit exceeded. Waiting and retrying...");
-        setIsLoading(true);
-        await new Promise((resolve) => setTimeout(resolve, 5000)); // Wait for 5 seconds (adjust as needed)
-        return questionApi(); // Retry the request
-      } else {
-        console.log(error.message);
-        setIsLoading(false);
-      }
+      console.log(error);
     }
-  };
-
-  const onNextQues = () => {
-    // setIndex((prevState) => prevState + 1);
-    setIndex(indx + 1);
-    console.log(indx);
   };
 
   return (
     <div className="main">
-      {isLoding ? (
-        <img src="/loader.svg" alt="Loading..." />
-      ) : (
-        <div className="mainContent">
-          <Card quNo={indx + 1} {...newQuestion} onNextQue={onNextQues} />
-        </div>
-      )}
+      <div className="mainContent">
+        <Card allQuestions={questions} />
+      </div>
     </div>
   );
 };
