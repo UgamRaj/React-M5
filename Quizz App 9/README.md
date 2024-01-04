@@ -1,4 +1,7 @@
-[old link](https://quizz-9-ugam.netlify.app/)
+## Hosted Link 👇
+
+## [Quiz App](https://quizz-9-ugam.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
