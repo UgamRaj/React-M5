@@ -1,5 +1,8 @@
 ## [Movies Card Hosted Link](https://movies-card-ugam.netlify.app/)
 
+![moviesCard](https://github.com/UgamRaj/React-M5/assets/124122714/1494346c-0848-4489-967d-8a57d786be31)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
