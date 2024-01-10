@@ -1,0 +1,114 @@
+body {
+  background-color: #060814;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+.main {
+  /* border: 1px solid red; */
+  width: 80vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+.resultConatiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b1b9e6;
+  padding: 0.1rem 2rem;
+  box-sizing: border-box;
+  background-color: #352f44;
+  border-radius: 0.5rem;
+}
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.inputContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.copyBtn {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.result {
+  color: #00bbf0;
+  font-size: 1.4rem;
+}
+
+.copyBtn img {
+  width: 100%;
+  height: 100%;
+}
+.copyBtn img:active {
+  scale: 0.94;
+}
+.btnContainer {
+  margin-top: 1rem;
+}
+.generateBtn {
+  background-color: #116bb4;
+  background-color: #168a14;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  transition: all 0.25s ease-in-out;
+}
+.generateBtn:hover {
+  background-color: transparent;
+  border: 1px solid #168a14;
+  font-weight: 300;
+}
+.generateBtn:active {
+  scale: 0.94;
+}
+label {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.inputCheck {
+  width: 1.2rem;
+  height: 1.2rem;
+  /* background-color: #352f44; */
+}
+input[type="checkbox"] {
+  accent-color: #16d916;
+}
+.inpuNum {
+  background-color: #352f44;
+  color: #00bbf0;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  width: 2.7rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.inputLabelContainer {
+  display: flex;
+
+  align-items: center;
+}
+.condition {
+  color: rgba(255, 255, 0, 0.544);
+}
