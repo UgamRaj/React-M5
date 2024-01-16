@@ -1,0 +1,72 @@
+.lightTheme {
+  --bg-gradient-primary: #f1f1f1;
+  --bg-gradient-secondary: #9ee8ff;
+  --white: black;
+  --body-color: #212529;
+  --black: black;
+  --border: #86b7fe;
+  --textarea-box-shadow: rgba(13, 110, 253, 0.25);
+  --green: green;
+  --bg-alertbox: rgba(170, 228, 170, 0.718);
+  --nav-bg-color: #fff;
+  --footer-text: #fff;
+  --text-color-white: black;
+  --textarea-bg-color: #fff;
+  --text-area-cl: black;
+}
+.darkTheme {
+  --bg-gradient-primary: rgb(92, 92, 92);
+  --bg-gradient-secondary: rgb(27, 27, 27);
+  --white: #fff;
+  --body-color: #212529;
+  --black: black;
+  --border: #86b7fe;
+  --textarea-box-shadow: rgba(13, 110, 253, 0.25);
+  --green: green;
+  --bg-alertbox: rgba(170, 228, 170, 0.718);
+  --bg-light-blue: #0d6efd;
+  --bg-light-red: #dc3545;
+  --bg-light-green: #198754;
+  --nav-bg-color: rgb(33 37 52);
+  --text-color-white: #fff;
+  --textarea-bg-color: rgb(58, 59, 60);
+  --text-area-cl: #fff;
+}
+.home {
+  display: grid;
+  place-content: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background-color: var(--textarea-bg-color);
+  color: var(--text-area-cl);
+}
+textarea:focus {
+  border-color: var(--border);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem var(--textarea-box-shadow);
+}
+
+.alertContainer {
+  min-height: 90px;
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: all 0.25s ease-in-out;
+}
+.alertBox p {
+  color: var(--green);
+  margin: 0;
+}
+.alertBox {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.9rem;
+  background-color: var(--bg-alertbox);
+}

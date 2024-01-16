@@ -1,0 +1,66 @@
+.lightTheme {
+  --bg-gradient-primary: #f1f1f1;
+  --bg-gradient-secondary: #9ee8ff;
+  --white: black;
+  --body-color: #212529;
+  --black: black;
+  --border: #86b7fe;
+  --textarea-box-shadow: rgba(13, 110, 253, 0.25);
+  --green: green;
+  --bg-alertbox: rgba(170, 228, 170, 0.718);
+  --nav-bg-color: #fff;
+  --footer-text: #fff;
+  --text-color-white: black;
+}
+.darkTheme {
+  --bg-gradient-primary: rgb(92, 92, 92);
+  --bg-gradient-secondary: rgb(27, 27, 27);
+  --white: #fff;
+  --body-color: #212529;
+  --black: black;
+  --border: #86b7fe;
+  --textarea-box-shadow: rgba(13, 110, 253, 0.25);
+  --green: green;
+  --bg-alertbox: rgba(170, 228, 170, 0.718);
+  --bg-light-blue: #0d6efd;
+  --bg-light-red: #dc3545;
+  --bg-light-green: #198754;
+  --nav-bg-color: rgb(33 37 52);
+  --text-color-white: #fff;
+  --footer-text: #fff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  background-color: var(--nav-bg-color);
+}
+
+.leftHeader {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.leftHeader h2 {
+  color: rgb(6, 182, 212);
+  font-weight: 500;
+  font-size: 1.375rem;
+  margin: 0;
+}
+
+.leftHeader ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.leftHeader ul li {
+  margin-left: 1.5rem;
+}
+
+.leftHeader ul li a {
+  text-decoration: none;
+  color: var(--text-color-white);
+  opacity: 0.6;
+}
