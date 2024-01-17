@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1a2639;
+}
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.navBar {
+  background-color: #4472c4;
+  color: #fff;
+  justify-content: center;
+}
+.navBar,
+.topBtnContainer {
+  align-items: center;
+  display: flex;
+  height: 10vh;
+  width: 100%;
+}
+.topBtnContainerBtn {
+  background-color: #4472c4;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  height: 50%;
+  margin: 0 4rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.AddNewPerson {
+  border: 3px solid #cacaca;
+  height: 75vh;
+  position: relative;
+  width: 92%;
+}
+
+.title {
+  align-items: center;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  display: flex;
+  font-weight: bolder;
+  height: 3rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  width: 20%;
+  color: #fff;
+}
+table {
+  margin: 0 3%;
+  width: 94%;
+}
+thead {
+  background-color: #4472c4;
+  color: #fff;
+}
+tr {
+  height: 35px;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.94;
+}
+
+.addBtn {
+  background-color: #4472c4;
+  border: none;
+  border-radius: 2px;
+  bottom: 1%;
+  color: #fff;
+  height: 8%;
+  position: absolute;
+  right: 1%;
+  width: 10%;
+  cursor: pointer;
+}
+td {
+  text-align: center;
+}
+
+.form-container {
+  background-color: #4472c4;
+  border: 1px solid grey;
+  color: #fff;
+  height: 3rem;
+  margin: 5px 3% 0;
+  width: 94%;
+}
+.form-container h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3%;
+  width: 94%;
+}
+form > input {
+  width: 100%;
+}
+.submitBtn {
+  background-color: #fff;
+  border: none;
+  color: blue;
+  background-color: #42b883;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.deleteBtnContainer,
+.deleteBtnContainer button {
+  background-color: #42b883;
+  color: rgb(204, 46, 46);
+}
+.Retrieve {
+  border: 3px solid #cacaca;
+  height: 75vh;
+  width: 92%;
+}
+
+input {
+  background-color: #393e46;
+  color: #fff;
+  border: 1px dashed #fff;
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.2rem;
+}
+
+.find {
+  height: 8%;
+  width: 50%;
+}
+.find-form {
+  display: flex;
+  height: 100%;
+}
+.search-aadhar {
+  margin-right: 2%;
+  text-align: center;
+}
+.find-btn {
+  background-color: #4472c4;
+  border: none;
+  color: #fff;
+  width: 20%;
+}
+.result {
+  margin: 2% 3% 0;
+  width: 92%;
+}
+.result h1 {
+  text-align: center;
+  color: rgb(207, 94, 94);
+}
+
+.findCard {
+  display: grid;
+  place-content: center;
+  width: 100%;
+}
+
+.outputCard {
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 32px;
+  background: linear-gradient(315deg, #cacaca, #3e4a61);
+  box-shadow: -10px -10px 20px #bebebe, 10px 10px 20px #ffffff;
+  padding-left: 10%;
+  color: aqua;
+}
+
+.outputCard p {
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
