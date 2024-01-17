@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "product": "Products - 1",
+      "price": 100,
+      "qty":0
+    },
+    {
+      "id": 2,
+      "product": "Products - 2",
+      "price": 200,
+      "qty":0
+    },
+    {
+      "id": 3,
+      "product": "Products - 3",
+      "price": 300,
+      "qty":0
+    },
+    {
+      "id": 4,
+      "product": "Products - 4",
+      "price": 400,
+      "qty":0
+    }
+  ]
