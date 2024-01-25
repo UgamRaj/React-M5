@@ -25,16 +25,16 @@ const Login = () => {
       ); //! Route to dashboard.
       console.log(currtUser);
       setCurrentUser(currtUser);
-      const userData = JSON.stringify({
-        email: currtUser.user.email,
-        token: currtUser.user.stsTokenManager.accessToken,
-      });
-      console.log(userData);
+      // const userData = JSON.stringify({
+      //   email: currtUser.user.email,
+      //   token: currtUser.user.stsTokenManager.accessToken,
+      // });
+      // console.log(userData);
       // localStorage.setItem(
       //   "authUser",
       //   userData
       // );
-      localStorage.setItem("authUser", userData);
+      // localStorage.setItem("authUser", userData);
       //   user.email
       // user.stsTokenManager.accessToken
       navigate("/dashboard");

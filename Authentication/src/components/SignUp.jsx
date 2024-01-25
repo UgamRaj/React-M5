@@ -32,12 +32,12 @@ const Signup = () => {
 
       console.log(currtUser);
       setCurrentUser(currtUser);
-      const userData = JSON.stringify({
-        email: currtUser.user.email,
-        token: currtUser.user.stsTokenManager.accessToken,
-      });
-      console.log(userData);
-      localStorage.setItem("authUser", userData);
+      // const userData = JSON.stringify({
+      //   email: currtUser.user.email,
+      //   token: currtUser.user.stsTokenManager.accessToken,
+      // });
+      // console.log(userData);
+      // localStorage.setItem("authUser", userData);
       navigate("/dashboard");
     } catch (e) {
       setError("Failed to create an account");

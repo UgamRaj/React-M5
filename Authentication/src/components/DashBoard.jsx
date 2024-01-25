@@ -16,7 +16,7 @@ const DashBoard = () => {
     try {
       await logout();
       setCurrentUser({});
-      localStorage.setItem("authUser", "");
+      // localStorage.setItem("authUser", JSON.stringify({}));
 
       navigate("/login");
     } catch (error) {
@@ -31,8 +31,8 @@ const DashBoard = () => {
         <Card.Body>
           <h2 className="text-center mb-4">Profile</h2>
           {error && <Alert variant="danger">{error}</Alert>}
-          <strong>Email:</strong> {currentUser.email}
-          <Link to="/profile" className="btn btn-primary w-100 mt-3">
+          <strong>Email:</strong> {currentUser?.user.email}
+          <Link to="/dashboard" className="btn btn-primary w-100 mt-3">
             Update Profile
           </Link>
         </Card.Body>
