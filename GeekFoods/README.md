@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [GeekFoods Link](https://geekfoods-ugam.netlify.app/)
+### [GeekFoods Link](https://geekfoods-ugam.netlify.app/)
 
 ![geekfood1](https://github.com/UgamRaj/React-M5/assets/124122714/498bc5f5-c084-4784-b36f-2ddfa18b0cf6)
 
