@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Paragraph Link](https://lorem-ipsum-generator-ugam.netlify.app/)
+### [Paragraph project Link](https://lorem-ipsum-generator-ugam.netlify.app/)
 
 ## Getting Started with Create React App
 
