@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Directory App Link](https://directory-app-ugam.netlify.app/)
+### [Directory App Link](https://directory-app-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
