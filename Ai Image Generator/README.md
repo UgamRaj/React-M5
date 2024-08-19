@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Ai Image Generator](https://ai-image-generator-ugam.netlify.app/)
+### [Ai Image Generator](https://ai-image-generator-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
