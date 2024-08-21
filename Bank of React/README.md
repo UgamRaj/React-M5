@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Bank of React Link](https://bank-of-react-ugam.netlify.app/)
+### [Bank of React Link](https://bank-of-react-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
