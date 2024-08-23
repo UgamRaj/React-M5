@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Cart Link](https://react-cart-ugam.netlify.app/)
+### [Cart Link](https://react-cart-ugam.netlify.app/)
 
 ![cart react](https://github.com/UgamRaj/React-M5/assets/124122714/00c6f411-add3-4d93-abe2-d803bc087231)
 
