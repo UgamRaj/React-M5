@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Secure Password Generator](https://secure-pass-generator-ugam.netlify.app/)
+### [Secure Password Generator](https://secure-pass-generator-ugam.netlify.app/)
 
 ![password generator](https://github.com/UgamRaj/React-M5/assets/124122714/91d4636a-5b79-410e-b53d-50641235454a)
 
