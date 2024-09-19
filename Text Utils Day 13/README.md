@@ -1,6 +1,6 @@
-## Hosted Link
+## Hosted Link 👇
 
-## [Text Utils Link](https://text-utils-ugam.netlify.app/)
+### [Text Utils Link](https://text-utils-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
