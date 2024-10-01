@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Text Translator](https://text-translator-ugam.netlify.app/)
+### [Text Translator](https://text-translator-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
