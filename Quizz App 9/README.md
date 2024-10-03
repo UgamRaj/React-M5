@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Quiz App](https://quizz-9-ugam.netlify.app/)
+### [Quiz App](https://quizz-9-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
