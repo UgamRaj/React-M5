@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [Progress Bar Link](https://progress-bar-ugam.netlify.app/)
+### [Progress Bar Link](https://progress-bar-ugam.netlify.app/)
 
 ![progress bar1](https://github.com/UgamRaj/React-M5/assets/124122714/b4e68dfe-a633-4515-b86d-8801237fcce1)
 
