@@ -1,6 +1,6 @@
 ## Hosted Link 👇
 
-## [GeekFoods Restaurant Link](https://geeksfood-restaurant-ugam.netlify.app/)
+### [GeekFoods Restaurant Link](https://geeksfood-restaurant-ugam.netlify.app/)
 
 # Getting Started with Create React App
 
